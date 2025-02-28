@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Board</title>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- poppins font -->
+ <style>
+        .font-poppins{
+            font-family: "Poppins", sans-serif;
+        
+    }
+ </style>
+     
+
 </head>
-<body>
+
+<body class="font-poppins bg-[#F4F7FF] py-5">
+    <header class="max-w-screen-2xl mx-auto ">
+        <nav class=" bg-white p-5 rounded-2xl flex justify-between">
+            <div class="flex gap-2 items-center">
+                <img src="assets/logo.png" alt="logo image">
+                <p class="font-light text-3xl">Dev<span class="font-bold">Board</span></p>
+
+            </div>
+            <div class="flex gap-4">
+                <div class="flex gap-5 bg-[#F4F7FF] p-4 rounded-full items-center">
+                    <div><img src="assets/checkbox.png" alt="checkbox image"></div>
+                    <p class="text-3xl font-bold">22</p>
+                </div>
+                <div class="p-4 bg-[#F4F7FF] rounded-full">
+                    <img src="assets/theme-btn.png" alt="theme button image">
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="max-w-screen-2xl mx-auto mt-5">
+        <!-- task info section and task card section-->
+         <div class="bg-white rounded-2xl">
+            <!-- task-info -->
+            <div class="task-info flex gap-5 px-5 pt-5 pb-8 border-b-2 border-dashed border-b-[#F4F7FF]">
+                
+                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center">
+                        <div class="flex items-center justify-center p-6 rounded-full bg-white"><img src="assets/checkbox.png" alt="checkbox image"></div>
+                        <div>    
+                            <p class="text-base font-medium">Task Assigned</p>
+                            <p class="text-3xl font-bold">06</p>
+                        </div>
+                        </div>
+
+                <div class="flex gap-5 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-8 pl-8 pr-32 rounded-xl ">
+                    <div><img src="assets/board.png" alt="board image"></div>
+                    
+                    <p class="text-2xl font-medium text-white">Discover Something <br>New Today!</p>
+                </div>
+                
+                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center">
+                        <div class="flex items-center justify-center p-6 rounded-full bg-white"><img src="assets/calender.png" alt="calender image"></div>
+                        <div>   
+                            <p class="text-2xl font-normal">Wed</p>
+                            <p class="text-2xl font-bold">Jul 28 2025 </p>
+                        </div>
+                        </div>
+            </div>
+            <!-- task-cards -->
+            <div class="task-cards px-5 py-8">
+
+            </div>
+
+         </div>
+         <!-- activity log section -->
+          <div>
+
+          </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
     
+
 </body>
+
 </html>
