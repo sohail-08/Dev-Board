@@ -18,6 +18,7 @@
 
 
 </head>
+
 <body class="font-poppins bg-[#F4F7FF] py-5">
     <header class="max-w-screen-2xl mx-auto ">
         <nav class=" bg-white p-5 rounded-2xl flex justify-between">
@@ -27,7 +28,8 @@
 
             </div>
             <div>
-                <button id="back-button" class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Back to Desk</button>
+                <button id="back-button"
+                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Back to Desk</button>
             </div>
 
             </div>
@@ -38,37 +40,55 @@
         <h2 class="font-bold text-4xl text-center">Blogs</h2>
         <div class=" bg-white mt-5 rounded-md">
             <div class="border-b-2 border-dashed border-b-[#3752FD30] p-5">
-                <p class="font-bold text-2xl">Question-1: What are the different ways to select an element in the DOM?</p>
+                <p class="font-bold text-2xl">Question-1: What are the different ways to select an element in the DOM?
+                </p>
             </div>
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod sapiente ad molestias, itaque eum alias accusamus veniam blanditiis reiciendis reprehenderit recusandae aperiam omnis deleniti ex dolorum nulla voluptates aut.</p>
+            <p class="p-5">There are different ways to select an element in the DOM. They are: <br>
+                1.By ID: getElementById();<br>
+                2.By Class: getElementsByClassName();<br>
+                3.By Tag: getElementsByTagName();<br>
+                4.Using selectors: querySelector(); and querySelectorAll();<br>
+                5.By name: getElementsByName();<br>
+
+
+            </p>
         </div>
 
         <div class=" bg-white mt-5 rounded-md">
             <div class="border-b-2 border-dashed border-b-[#3752FD30] p-5">
-                <p class="font-bold text-2xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+                <p class="font-bold text-2xl">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent ?</p>
             </div>
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod sapiente ad molestias, itaque eum alias accusamus veniam blanditiis reiciendis reprehenderit recusandae aperiam omnis deleniti ex dolorum nulla voluptates aut.</p>
+            <p class="p-5">innerHTML gets or sets the HTML content of an element as a string. It includes html tags and
+                elements. <br>
+                On the other hand innerText and textContent gets or sets the text inside an element. But textContent
+                includes hidden files and innerText doesn't</p>
         </div>
 
         <div class=" bg-white mt-5 rounded-md">
             <div class="border-b-2 border-dashed border-b-[#3752FD30] p-5">
                 <p class="font-bold text-2xl">Question-3: What is event delegation in the DOM?</p>
             </div>
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod sapiente ad molestias, itaque eum alias accusamus veniam blanditiis reiciendis reprehenderit recusandae aperiam omnis deleniti ex dolorum nulla voluptates aut.</p>
+            <p class="p-5">Event delegation is a technique in JavaScript where we add a single event listener to a
+                parent element instead of adding multiple event listeners to individual child elements</p>
         </div>
 
         <div class=" bg-white mt-5 rounded-md">
             <div class="border-b-2 border-dashed border-b-[#3752FD30] p-5">
                 <p class="font-bold text-2xl">Question-4: What is event bubbling in the DOM?</p>
             </div>
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod sapiente ad molestias, itaque eum alias accusamus veniam blanditiis reiciendis reprehenderit recusandae aperiam omnis deleniti ex dolorum nulla voluptates aut.</p>
+            <p class="p-5">Event bubbling is a concept in the DOM where an event starts at the target element and then bubbles up through its ancestors, triggering event handlers on each parent
+                element along the way</p>
         </div>
 
         <div class=" bg-white mt-5 rounded-md">
             <div class="border-b-2 border-dashed border-b-[#3752FD30] p-5">
-                <p class="font-bold text-2xl">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+                <p class="font-bold text-2xl">Question-5: How do you create, add, and remove elements using JavaScript?
+                </p>
             </div>
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod sapiente ad molestias, itaque eum alias accusamus veniam blanditiis reiciendis reprehenderit recusandae aperiam omnis deleniti ex dolorum nulla voluptates aut.</p>
+            <p class="p-5">Creating elements:We can create a new element using the document.createElement() method <br>
+            Adding elements:We can add a new element using the appendChild(), append(), prepend(), insertBefore() or innerHTML method <br>
+        Removing elements:We can remove an element using the  remove(), remove() or innerHTML="" method </p>
         </div>
 
 
@@ -78,6 +98,7 @@
     </footer>
 
     <script src="js/switch.js"></script>
-    
+
 </body>
+
 </html>
