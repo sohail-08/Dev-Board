@@ -24,7 +24,7 @@
         <nav class=" bg-white p-5 rounded-2xl flex justify-between">
             <div class="flex gap-2 items-center">
                 <img src="assets/logo.png" alt="logo image">
-                <p class="font-light text-3xl">Dev<span class="font-bold">Board</span></p>
+                <p class="hidden md:block font-light text-3xl">Dev<span class="font-bold">Board</span></p>
 
             </div>
             <div class="flex gap-4">
@@ -43,14 +43,14 @@
     </header>
 
     <main class="max-w-screen-2xl mx-auto mt-5">
-        <div class="flex gap-8">
+        <div class="md:flex gap-8">
 
             <!-- task info section and task card section-->
-            <div class="bg-white rounded-2xl w-5/6">
+            <div class="bg-white rounded-2xl md:w-5/6">
                 <!-- task-info -->
-                <div class="task-info flex gap-5 px-5 pt-5 pb-8 border-b-2 border-dashed border-b-[#3752FD30]">
+                <div class="task-info md:flex gap-5 px-5 pt-5 pb-8 border-b-2 border-dashed border-b-[#3752FD30]">
 
-                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center">
+                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center mb-5 md:mb-0">
                         <div class="flex items-center justify-center p-6 rounded-full bg-white"><img
                                 src="assets/checkbox.png" alt="checkbox image"></div>
                         <div>
@@ -59,13 +59,13 @@
                         </div>
                     </div>
 
-                    <div id="discover" class="flex gap-5 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-8 pl-8 pr-20 rounded-xl cursor-pointer">
+                    <div id="discover" class="flex gap-5 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-8 pl-8 pr-20 rounded-xl cursor-pointer mb-5 md:mb-0">
                         <div><img src="assets/board.png" alt="board image"></div>
 
                         <p class="text-2xl font-medium text-white">Discover Something <br>New Today!</p>
                     </div>
 
-                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center">
+                    <div class="flex gap-5 bg-[#F4F7FF] p-8 rounded-xl items-center mb-5 md:mb-0">
                         <div class="flex items-center justify-center p-6 rounded-full bg-white"><img
                                 src="assets/calender.png" alt="calender image"></div>
                         <div>
@@ -75,8 +75,8 @@
                     </div>
                 </div>
                 <!-- task-cards -->
-                <div class="task-cards px-5 py-8 grid grid-cols-3 gap-5">
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                <div class="task-cards px-5 py-8 md:grid grid-cols-3 gap-5">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default">ShopEase</button>
                             <h3 class="font-semibold text-2xl">Fix Mobile Button Issue </h3>
@@ -97,7 +97,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default">CloudSync</button>
                             <h3 class="font-semibold text-2xl">Add Dark Mode</h3>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default" >SwiftPay</button>
                             <h3 class="font-semibold text-2xl">Optimize Home page </h3>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default">Meta</button>
                             <h3 class="font-semibold text-2xl">Add new emoji 🤲</h3>
@@ -159,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default">Google LLC</button>
                             <h3 class="font-semibold text-2xl">Integrate OpenAI API </h3>
@@ -180,7 +180,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl">
+                    <div class="bg-[#F4F7FF]  p-5 rounded-2xl mb-5 md:mb-0">
                         <div class="pb-4 border-b-2 border-dashed border-b-[#3752FD30] space-y-4">
                             <button class="bg-white rounded-lg px-4 py-2 text-[16px] cursor-default">Glassdoar</button>
                             <h3 class="font-semibold text-2xl">Improve Job searching </h3>
@@ -210,7 +210,7 @@
 
             </div>
             <!-- activity log section -->
-            <div class="p-5 bg-white w-2/6 rounded-2xl ">
+            <div class="p-5 bg-white md:w-2/6 rounded-2xl mt-5 md:mt-0">
                 <div class="border-b-2 border-dashed border-b-[#3752FD30]">
                     <div class="flex gap-4 items-center justify-center ">
                         <img src="assets/activity.png" alt="activity image">
