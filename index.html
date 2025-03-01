@@ -30,7 +30,7 @@
             <div class="flex gap-4">
                 <div class="flex gap-5 bg-[#F4F7FF] p-4 rounded-full items-center">
                     <div><img src="assets/checkbox.png" alt="checkbox image"></div>
-                    <p class="text-3xl font-bold">22</p>
+                    <p id="completed-tasks" class="text-3xl font-bold">23</p>
                 </div>
                 <div class="p-4 bg-[#F4F7FF] rounded-full">
                     <img id="theme" class="cursor-pointer" src="assets/theme-btn.png" alt="theme button image">
@@ -55,7 +55,7 @@
                                 src="assets/checkbox.png" alt="checkbox image"></div>
                         <div>
                             <p class="text-base font-medium">Task Assigned</p>
-                            <p class="text-3xl font-bold">06</p>
+                            <p id="assigned-tasks" class="text-3xl font-bold">6</p>
                         </div>
                     </div>
 
@@ -87,12 +87,12 @@
                             </div>
                         </div>
                         <div class="flex justify-between mt-4">
-                            <div class="text-[14px]">
-                                <p>Deadline</p>
+                            <div>
+                                <p class="text-[14px]">Deadline</p>
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
-                            <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
+                            <div> 
+                                <button class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
                             <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px] ">Completed</button>
+                                    class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px] ">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
                             <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
+                                    class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
                             <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
+                                    class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
                             <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
+                                    class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                                 <p class="font-semibold text-[16px]">21 March 2025</p>
                             </div>
                             <div> <button
-                                    class="bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
+                                    class="completed-btn bg-[#3752FD] rounded-lg px-4 py-2 text-white font-medium text-[16px]">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -221,8 +221,8 @@
                             History</button>
                     </div>
                 </div>
-                <div class="mt-8 bg-[#F4F7FF] p-3 rounded-lg">
-                    You have Complete The Task Add Dark Mode at 12:48:15 PM
+                <div id="activity-log" class="mt-8 space-y-5">
+                    
                 </div>
 
 
