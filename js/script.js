@@ -55,12 +55,13 @@ for(let i=0; i<button.length; i++){
         message.style.borderRadius = "8px";
         activityLog.appendChild(message);
      
-
-
-
-    })
-    
+    })   
 }
+
+// clear history button
+document.getElementById("clear-btn").addEventListener("click", function() {
+    activityLog.innerHTML = ""; 
+});
 
 
 
